@@ -1,0 +1,7 @@
+{
+  "uuid": "ctrlalt-drag@user",
+  "name": "Ctrl+Drag No Raise",
+  "description": "Hold Ctrl while dragging files to prevent the source window from being raised — like Cmd+drag on macOS. Works with Dolphin, Nautilus, and any X11 file manager.",
+  "version": 1,
+  "shell-version": ["45", "46", "47", "48"]
+}
