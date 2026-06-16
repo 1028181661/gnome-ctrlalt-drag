@@ -1,4 +1,4 @@
-# Ctrl+Drag No Raise
+# Ctrl+Drag No Raise — Linux GNOME Shell 扩展
 
 按住 **Ctrl 键** 拖拽文件时，**阻止源窗口置前**，让你能直接拖入背后的目标窗口 — 就像 macOS 的 ⌘+拖拽 一样。
 
@@ -59,6 +59,20 @@ gnome-ctrlalt-drag/
 ├── LICENSE            # MIT 许可证
 └── README.md          # 本文档
 ```
+
+## 测试环境
+
+本扩展在以下环境中开发与测试通过：
+
+| 项目 | 版本 |
+|------|------|
+| 操作系统 | Ubuntu 24.04.4 LTS (Noble Numbat) |
+| Linux 内核 | 6.8.0-83-generic |
+| 显示服务 | X11 |
+| GNOME Shell | 46.0 |
+| 文件管理器 | Dolphin (KDE Frameworks) |
+
+> Wayland 理论上兼容但未充分测试，欢迎反馈。
 
 ## 已知问题
 
